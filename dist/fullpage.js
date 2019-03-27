@@ -632,8 +632,7 @@
             window.addEventListener('blur', blurHandler);
 
             //when resizing the site, we adjust the heights of the sections, slimScroll...
-            window.addEventListener('resize', 
-                                   );
+            window.addEventListener('resize', resizeHandler);
 
             //Sliding with arrow keys, both, vertical and horizontal
             document.addEventListener('keydown', keydownHandler);
